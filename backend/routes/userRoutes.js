@@ -5,7 +5,7 @@ import {
   registerUser,
   getUserProfile,
   updateUserProfile,
-} from '../controller/userController.js'
+} from '../controllers/userController.js'
 import { protect } from '../middleware/authMiddlewate.js'
 
 router.route('/').post(registerUser)
